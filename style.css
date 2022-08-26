@@ -1,0 +1,150 @@
+
+body{
+    background-color: #f4f3f8;
+    padding:0;
+    outline: 0;
+    margin:0;
+}
+#midWhole{
+    position: relative;
+    /* margin-bottom: 500px; */
+    bottom: 150px;
+    outline:0;
+
+}      
+#navFirst{
+    padding-top: 30px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+#navMid2{
+    display: none;
+}
+
+.text{
+    width:75%;
+}
+#navMid>div:first-child{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+#navMid{
+   display: flex ;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 75%;
+  font-family:'Abel';
+  font-size: 25px;
+
+  /* left: 150px; */
+  /* bottom: 80px  */
+      
+}
+ #navbarMonstera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 30px;
+    
+}
+#icons{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+#icons>img{
+ height:25px;
+}
+/* 
+#midWholePart13 div{
+    display: inline-block;
+    position: relative;
+    top:100px;
+    width: 200px;
+    /* It is feeding light and care */
+    /* border: solid 5px; */
+#midWholePart1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+
+}
+#midWholePart11{
+    display: flex;
+    flex-direction: row;
+}
+
+#midWholePart13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#midWhole{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 200px;
+}
+#midWholePart121>div>h1{
+    border: solid #ffffff;
+    border-radius: 30px;
+    background-color: #466d50;
+    color: #ffffff;
+    font-family: 'Abel';
+    font-size: 30px;
+    font-weight: 100;
+    width:10rem;
+    padding: 5px 10px;
+    
+}
+#midWholePart121{
+    display: flex;
+    flex-direction: row;
+}
+ 
+#monstera {
+   top:40px;
+   font-size: 120px;
+   font-family: 'Allerta';
+   position: relative;
+} 
+#imgMain{
+    float: right;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+@media screen and (max-width:980px){
+    body{
+        
+    }
+
+    #navMid>div>h4{
+        display: none;
+    }
+#navFirst{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#navMid2{
+    display: block;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+#midWhole{
+    flex-direction: column;
+}
+
+}
